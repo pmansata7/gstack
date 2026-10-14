@@ -112,3 +112,8 @@ bun run skill:check      # health dashboard for all skills
 - Safety skills (careful, freeze, guard) use inline advisory prose — always confirm before destructive operations.
 - State paths resolve via `bin/gstack-paths` (sourced via `eval "$(...)"`). Honors `GSTACK_HOME`, `CLAUDE_PLUGIN_DATA`, `CLAUDE_PLANS_DIR`.
 - The `claude` CLI binary resolves via `browse/src/claude-bin.ts` (`Bun.which()` + `GSTACK_CLAUDE_BIN` override). Set `GSTACK_CLAUDE_BIN=wsl` plus `GSTACK_CLAUDE_BIN_ARGS='["claude"]'` to run Claude through WSL on Windows.
+
+## Cursor Cloud Agent auto-merge
+
+Pull requests on `cursor/*` branches squash-merge when checks pass. See `docs/cloud-agent-auto-merge.md`.
+
