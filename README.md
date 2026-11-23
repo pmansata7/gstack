@@ -464,3 +464,5 @@ Available skills: /office-hours, /plan-ceo-review, /plan-eng-review, /plan-desig
 ## License
 
 MIT. Free forever. Go build something.
+## Free-tier pause (production Supabase)
+If GitHub emails about Supabase pausing due to inactivity, configure the daily **Supabase heartbeat** workflow — see [supabase-heartbeat.md](supabase-heartbeat.md).
